@@ -9,6 +9,21 @@ var controller = Botkit.slackbot({
     require_delivery: true,
 });
 
+
+var bot = controller.spawn({
+    token:require('./config').token
+});
+
+bot.startRTM(function(err,bot,payload) {
+ 
+  if (err) {
+ 
+    throw new Error('Could not connect to Slack');
+ 
+  }
+ 
+});
+
 controller.hears(["Hello","Hi","Hola","Hey","boo"],["direct_message"],function(bot,message) {
 
     if(message.text.toLowerCase() === "hello"){
