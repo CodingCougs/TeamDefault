@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/CodingCougs/TeamDefault#readme",
   "dependencies": {
-    "botkit": "^0.5.4"
+    "botkit": "^0.5.4",
+    "slack": "^8.3.1"
   }
 }
