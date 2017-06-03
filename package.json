@@ -1,0 +1,28 @@
+{
+  "name": "team_default",
+  "version": "1.0.0",
+  "description": "Slack chat bot for stock changes and amazon shopping",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CodingCougs/TeamDefault.git"
+  },
+  "keywords": [
+    "Chat",
+    "Bot",
+    "Stock",
+    "Shopping"
+  ],
+  "author": "TeamDefault",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/CodingCougs/TeamDefault/issues"
+  },
+  "homepage": "https://github.com/CodingCougs/TeamDefault#readme",
+  "dependencies": {
+    "botkit": "^0.5.4"
+  }
+}
